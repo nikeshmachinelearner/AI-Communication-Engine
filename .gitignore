@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+
+data/raw/
+models/
+
+mlruns/
+
+.ipunb_checkpoints
+
+.DS_Store
