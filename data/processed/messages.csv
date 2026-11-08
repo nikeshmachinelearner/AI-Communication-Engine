@@ -1,0 +1,31 @@
+text,question,task,meeting_request,important_information,general_conversation,urgent
+What time does the presentation start?,1,0,0,0,0,0
+Do you know where the project documents are stored?,1,0,0,0,0,0
+Can you explain the latest sales numbers?,1,0,0,0,0,0
+When will the new application be released?,1,0,0,0,0,0
+Please update the project report.,0,1,0,0,0,0
+Send the revised budget to the finance team.,0,1,0,0,0,0
+Review the document before Friday.,0,1,0,0,0,0
+Remember to submit your expense claim.,0,1,0,0,0,0
+Can we meet tomorrow afternoon?,1,0,1,0,0,0
+Let us schedule a call for Monday morning.,0,0,1,0,0,0
+Are you available for a budget meeting at 3 PM?,1,0,1,0,0,0
+Please book a thirty-minute project review this week.,0,1,1,0,0,0
+The production release has been postponed until Monday.,0,0,0,1,0,0
+The client approved the final design.,0,0,0,1,0,0
+The office will be closed next Friday.,0,0,0,1,0,0
+The password policy changes next month.,0,0,0,1,0,0
+I hope you had a nice weekend.,0,0,0,0,1,0
+Thanks for your help today.,0,0,0,0,1,0
+That movie was really enjoyable.,0,0,0,0,1,0
+Have a great evening.,0,0,0,0,1,0
+"Urgent, the production server is unavailable.",0,0,0,1,0,1
+Please call me immediately.,0,1,0,0,0,1
+We need the corrected report within the next hour.,0,1,0,1,0,1
+The customer cannot access their account and needs help now.,0,1,0,1,0,1
+Can you send me the updated report by tomorrow morning?,1,1,0,0,0,0
+We need to discuss the budget before Friday.,0,1,1,0,0,0
+Are we still meeting tomorrow?,1,0,1,0,0,0
+"The deadline is tomorrow, so please finish this today.",0,1,0,1,0,1
+"Hi, how are you doing?",1,0,0,0,1,0
+Please join the emergency meeting in ten minutes.,0,1,1,1,0,1

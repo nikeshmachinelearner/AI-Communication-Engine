@@ -1,0 +1,69 @@
+{
+  "model": "tfidf_logistic_regression",
+  "training_examples": 21,
+  "test_examples": 9,
+  "macro_f1": 0.4095,
+  "micro_f1": 0.56,
+  "classification_report": {
+    "question": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "task": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "meeting_request": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "important_information": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "general_conversation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "urgent": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "micro avg": {
+      "precision": 0.7777777777777778,
+      "recall": 0.4375,
+      "f1-score": 0.56,
+      "support": 16.0
+    },
+    "macro avg": {
+      "precision": 0.5,
+      "recall": 0.34722222222222215,
+      "f1-score": 0.40952380952380957,
+      "support": 16.0
+    },
+    "weighted avg": {
+      "precision": 0.625,
+      "recall": 0.4375,
+      "f1-score": 0.5142857142857143,
+      "support": 16.0
+    },
+    "samples avg": {
+      "precision": 0.5555555555555556,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.4592592592592592,
+      "support": 16.0
+    }
+  }
+}

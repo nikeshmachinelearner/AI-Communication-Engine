@@ -1,12 +1,21 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
 
-data/raw/
-models/
+# Virtual environments
+venv/
+.venv/
 
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local ML artifacts
+models/**/*.joblib
 mlruns/
 
-.ipunb_checkpoints
-
-.DS_Store
+# Environment secrets
+.env
