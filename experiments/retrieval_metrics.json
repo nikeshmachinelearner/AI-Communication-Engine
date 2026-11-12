@@ -1,0 +1,135 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "number_of_queries": 6,
+  "recall_at_1": 0.4722,
+  "recall_at_3": 0.9444,
+  "recall_at_5": 0.9444,
+  "mrr": 1.0,
+  "mean_latency_ms": 31.62,
+  "total_evaluation_time_ms": 189.78,
+  "per_query_results": [
+    {
+      "query_id": "query_001",
+      "query": "When is the Project Alpha meeting?",
+      "relevant_message_ids": [
+        "msg_001",
+        "msg_002",
+        "msg_003"
+      ],
+      "retrieved_message_ids": [
+        "msg_001",
+        "msg_004",
+        "msg_003",
+        "msg_005",
+        "msg_008"
+      ],
+      "recall_at_1": 0.3333,
+      "recall_at_3": 0.6667,
+      "recall_at_5": 0.6667,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 150.12
+    },
+    {
+      "query_id": "query_002",
+      "query": "Where is the project review taking place?",
+      "relevant_message_ids": [
+        "msg_003"
+      ],
+      "retrieved_message_ids": [
+        "msg_003",
+        "msg_001",
+        "msg_005",
+        "msg_004",
+        "msg_007"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 8.15
+    },
+    {
+      "query_id": "query_003",
+      "query": "What changed with the marketing finances?",
+      "relevant_message_ids": [
+        "msg_006",
+        "msg_007",
+        "msg_008"
+      ],
+      "retrieved_message_ids": [
+        "msg_006",
+        "msg_007",
+        "msg_008",
+        "msg_011",
+        "msg_014"
+      ],
+      "recall_at_1": 0.3333,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 7.04
+    },
+    {
+      "query_id": "query_004",
+      "query": "Was the customer's login issue resolved?",
+      "relevant_message_ids": [
+        "msg_009",
+        "msg_010",
+        "msg_011"
+      ],
+      "retrieved_message_ids": [
+        "msg_009",
+        "msg_011",
+        "msg_010",
+        "msg_020",
+        "msg_014"
+      ],
+      "recall_at_1": 0.3333,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 8.63
+    },
+    {
+      "query_id": "query_005",
+      "query": "Why was the mobile app launch delayed?",
+      "relevant_message_ids": [
+        "msg_012",
+        "msg_013"
+      ],
+      "retrieved_message_ids": [
+        "msg_012",
+        "msg_013",
+        "msg_011",
+        "msg_014",
+        "msg_001"
+      ],
+      "recall_at_1": 0.5,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 6.71
+    },
+    {
+      "query_id": "query_006",
+      "query": "What is the new account password requirement?",
+      "relevant_message_ids": [
+        "msg_018",
+        "msg_019",
+        "msg_020"
+      ],
+      "retrieved_message_ids": [
+        "msg_019",
+        "msg_020",
+        "msg_018",
+        "msg_011",
+        "msg_010"
+      ],
+      "recall_at_1": 0.3333,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 9.06
+    }
+  ]
+}
