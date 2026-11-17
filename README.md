@@ -201,7 +201,6 @@ python -m src.classification.predict \
   --text "Please send the updated report by tomorrow."
 pytest -v
 
-
 ## Module 3: Action and Information Extraction
 
 Module 3 converts unstructured communication messages into structured data.
