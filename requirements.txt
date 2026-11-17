@@ -22,3 +22,6 @@ jupyter
 
 Notebook
 
+spacy
+dateparser
+pydantic
