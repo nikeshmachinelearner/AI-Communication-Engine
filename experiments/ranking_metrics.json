@@ -1,0 +1,18 @@
+{
+  "num_features": 12,
+  "feature_names": [
+    "message_age_hours",
+    "has_question",
+    "has_task",
+    "has_meeting",
+    "has_deadline",
+    "is_urgent",
+    "is_important",
+    "has_commitment",
+    "sender_importance",
+    "conversation_relevance",
+    "deadline_proximity",
+    "message_length"
+  ],
+  "num_rows": 15
+}
