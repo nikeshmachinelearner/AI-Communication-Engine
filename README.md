@@ -233,3 +233,27 @@ The initial extraction baseline combines:
 python -m src.extraction.extractor \
   --text "Maya, can you send the report tomorrow? I will review the budget before Friday in conference room B." \
   --reference-time "2026-11-12T14:00:00+05:45"
+
+
+### With Added module: Production Pipeline
+
+Module integrates message classification, context retrieval, information
+extraction, and priority ranking behind a FastAPI service.
+
+### Production capabilities
+
+- Unified message analysis endpoint
+- Pydantic request validation
+- Health and readiness endpoints
+- Graceful component degradation
+- Prometheus request and inference metrics
+- P50, P90, P95, and P99 latency evaluation
+- MLflow experiment tracking
+- Docker containerization
+- Pytest API and integration tests
+- GitHub Actions continuous integration
+
+### Start locally
+
+```bash
+uvicorn api.main:app --reload
