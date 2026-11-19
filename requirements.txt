@@ -25,3 +25,10 @@ Notebook
 spacy
 dateparser
 pydantic
+
+fastapi
+uvicorn[standard]
+httpx
+mlflow
+prometheus-client
+psutil

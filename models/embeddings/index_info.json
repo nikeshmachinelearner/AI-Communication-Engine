@@ -4,5 +4,5 @@
   "similarity": "cosine_similarity_via_normalized_inner_product",
   "message_count": 20,
   "embedding_dimension": 384,
-  "embedding_time_ms": 123.17
+  "embedding_time_ms": 132.83
 }
