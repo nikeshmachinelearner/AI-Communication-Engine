@@ -1,0 +1,12 @@
+{
+  "request_count": 80,
+  "mean_ms": 6.71,
+  "median_ms": 6.7,
+  "p90_ms": 7.1,
+  "p95_ms": 7.32,
+  "p99_ms": 8.04,
+  "minimum_ms": 6.05,
+  "maximum_ms": 9.5,
+  "target_p95_ms": 300,
+  "p95_target_met": true
+}
