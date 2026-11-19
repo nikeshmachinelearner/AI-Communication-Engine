@@ -5,8 +5,8 @@
   "recall_at_3": 0.9444,
   "recall_at_5": 0.9444,
   "mrr": 1.0,
-  "mean_latency_ms": 31.62,
-  "total_evaluation_time_ms": 189.78,
+  "mean_latency_ms": 23.24,
+  "total_evaluation_time_ms": 139.53,
   "per_query_results": [
     {
       "query_id": "query_001",
@@ -27,7 +27,7 @@
       "recall_at_3": 0.6667,
       "recall_at_5": 0.6667,
       "reciprocal_rank": 1.0,
-      "latency_ms": 150.12
+      "latency_ms": 101.46
     },
     {
       "query_id": "query_002",
@@ -46,7 +46,7 @@
       "recall_at_3": 1.0,
       "recall_at_5": 1.0,
       "reciprocal_rank": 1.0,
-      "latency_ms": 8.15
+      "latency_ms": 8.35
     },
     {
       "query_id": "query_003",
@@ -67,7 +67,7 @@
       "recall_at_3": 1.0,
       "recall_at_5": 1.0,
       "reciprocal_rank": 1.0,
-      "latency_ms": 7.04
+      "latency_ms": 7.0
     },
     {
       "query_id": "query_004",
@@ -88,7 +88,7 @@
       "recall_at_3": 1.0,
       "recall_at_5": 1.0,
       "reciprocal_rank": 1.0,
-      "latency_ms": 8.63
+      "latency_ms": 9.23
     },
     {
       "query_id": "query_005",
@@ -108,7 +108,7 @@
       "recall_at_3": 1.0,
       "recall_at_5": 1.0,
       "reciprocal_rank": 1.0,
-      "latency_ms": 6.71
+      "latency_ms": 6.92
     },
     {
       "query_id": "query_006",
@@ -129,7 +129,7 @@
       "recall_at_3": 1.0,
       "recall_at_5": 1.0,
       "reciprocal_rank": 1.0,
-      "latency_ms": 9.06
+      "latency_ms": 6.51
     }
   ]
 }

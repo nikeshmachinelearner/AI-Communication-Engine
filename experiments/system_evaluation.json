@@ -1,0 +1,225 @@
+{
+  "results": {
+    "classification": {
+      "model": "tfidf_logistic_regression",
+      "training_examples": 21,
+      "test_examples": 9,
+      "macro_f1": 0.4095,
+      "micro_f1": 0.56,
+      "classification_report": {
+        "question": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "task": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "meeting_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "important_information": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "general_conversation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "urgent": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "micro avg": {
+          "precision": 0.7777777777777778,
+          "recall": 0.4375,
+          "f1-score": 0.56,
+          "support": 16.0
+        },
+        "macro avg": {
+          "precision": 0.5,
+          "recall": 0.34722222222222215,
+          "f1-score": 0.40952380952380957,
+          "support": 16.0
+        },
+        "weighted avg": {
+          "precision": 0.625,
+          "recall": 0.4375,
+          "f1-score": 0.5142857142857143,
+          "support": 16.0
+        },
+        "samples avg": {
+          "precision": 0.5555555555555556,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.4592592592592592,
+          "support": 16.0
+        }
+      }
+    },
+    "retrieval": {
+      "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+      "number_of_queries": 6,
+      "recall_at_1": 0.4722,
+      "recall_at_3": 0.9444,
+      "recall_at_5": 0.9444,
+      "mrr": 1.0,
+      "mean_latency_ms": 23.24,
+      "total_evaluation_time_ms": 139.53,
+      "per_query_results": [
+        {
+          "query_id": "query_001",
+          "query": "When is the Project Alpha meeting?",
+          "relevant_message_ids": [
+            "msg_001",
+            "msg_002",
+            "msg_003"
+          ],
+          "retrieved_message_ids": [
+            "msg_001",
+            "msg_004",
+            "msg_003",
+            "msg_005",
+            "msg_008"
+          ],
+          "recall_at_1": 0.3333,
+          "recall_at_3": 0.6667,
+          "recall_at_5": 0.6667,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 101.46
+        },
+        {
+          "query_id": "query_002",
+          "query": "Where is the project review taking place?",
+          "relevant_message_ids": [
+            "msg_003"
+          ],
+          "retrieved_message_ids": [
+            "msg_003",
+            "msg_001",
+            "msg_005",
+            "msg_004",
+            "msg_007"
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 8.35
+        },
+        {
+          "query_id": "query_003",
+          "query": "What changed with the marketing finances?",
+          "relevant_message_ids": [
+            "msg_006",
+            "msg_007",
+            "msg_008"
+          ],
+          "retrieved_message_ids": [
+            "msg_006",
+            "msg_007",
+            "msg_008",
+            "msg_011",
+            "msg_014"
+          ],
+          "recall_at_1": 0.3333,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 7.0
+        },
+        {
+          "query_id": "query_004",
+          "query": "Was the customer's login issue resolved?",
+          "relevant_message_ids": [
+            "msg_009",
+            "msg_010",
+            "msg_011"
+          ],
+          "retrieved_message_ids": [
+            "msg_009",
+            "msg_011",
+            "msg_010",
+            "msg_020",
+            "msg_014"
+          ],
+          "recall_at_1": 0.3333,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 9.23
+        },
+        {
+          "query_id": "query_005",
+          "query": "Why was the mobile app launch delayed?",
+          "relevant_message_ids": [
+            "msg_012",
+            "msg_013"
+          ],
+          "retrieved_message_ids": [
+            "msg_012",
+            "msg_013",
+            "msg_011",
+            "msg_014",
+            "msg_001"
+          ],
+          "recall_at_1": 0.5,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 6.92
+        },
+        {
+          "query_id": "query_006",
+          "query": "What is the new account password requirement?",
+          "relevant_message_ids": [
+            "msg_018",
+            "msg_019",
+            "msg_020"
+          ],
+          "retrieved_message_ids": [
+            "msg_019",
+            "msg_020",
+            "msg_018",
+            "msg_011",
+            "msg_010"
+          ],
+          "recall_at_1": 0.3333,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 6.51
+        }
+      ]
+    },
+    "ranking": {
+      "status": "missing",
+      "path": "experiments/ranking_training_metrics.json"
+    },
+    "latency": {
+      "request_count": 80,
+      "mean_ms": 6.68,
+      "median_ms": 6.66,
+      "p90_ms": 7.22,
+      "p95_ms": 7.52,
+      "p99_ms": 9.75,
+      "minimum_ms": 6.02,
+      "maximum_ms": 9.82,
+      "target_p95_ms": 300,
+      "p95_target_met": true
+    }
+  },
+  "execution_errors": {}
+}
